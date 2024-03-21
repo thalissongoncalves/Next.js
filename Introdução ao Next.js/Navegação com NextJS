@@ -1,0 +1,7 @@
+Documentação do next js:
+    nextjs.org/docs/getting-started
+
+Comandos:
+    npx create-next-app@latest "project_name" (cria o projeto react com arquivos iniciais)
+    yarn dev (consegue subir um preview no localhost pra acompanhar o desenvolvimento gráfico)
+    
