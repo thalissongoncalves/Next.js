@@ -1,0 +1,5 @@
+Ferramenta:
+    NextAuth: next-auth.js.org
+
+Pra que serve?
+    Serve para fazer autenticação com alguns outros provedores, por exemplo: GitHub, Google, Twitter... etc...

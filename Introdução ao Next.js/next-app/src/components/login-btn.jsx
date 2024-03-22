@@ -1,6 +1,8 @@
 import { useSession, signIn, signOut } from "next-auth/react"
 
 export default function Component() {
+  // Check if window is defined (client-side) before using useSession
+  if (typeof window !== 'undefined') {
     const { data: session } = useSession()
 
     if (session) {
@@ -18,4 +20,5 @@ export default function Component() {
         </>
       )
     }
+  }
 }
