@@ -5,3 +5,5 @@ Comandos:
     npx create-next-app@latest "project_name" (cria o projeto react com arquivos iniciais)
     yarn dev (consegue subir um preview no localhost pra acompanhar o desenvolvimento gráfico)
     
+Resumo:
+    Foi mostrado como criar páginas, ou seja, dentro do diretório "src/" foi criado o diretório "pages/" e dentro de "pages/" foi criado diretórios também que referenciam ao nome da rota, por exemplo, "produto/index.js", é referenciado na web por http://localhost:3000/produto, e também foi mostrado como pegar id da URL, onde o arquivo "[id].js" utilizando o useRouter é possível pegar o id do produto, por exemplo, "http://localhost:3000/produto/abc123" o id é "abc123"
